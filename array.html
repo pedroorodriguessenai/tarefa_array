@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa ARRAY</title>
+</head>
+<body>
+    <h1>Minha Agenda</h1>
+
+    <script>
+        let minhaAgenda = ["7h-Acordar", "8h-Tomar Café", "9h-Tomar Banho", "10h-Estudar", "11h-Academia", "12h-Almoçar", "13h-Cochilar"];
+        console.log(`A nossa rotina de tarefas é ${minhaAgenda}`);
+        console.log(`A primeira tarefa de nossa rotina é ${minhaAgenda[0]}`);
+
+        minhaAgenda.length;
+        console.log(`Você tem ${minhaAgenda.length} tarefas para fazer hoje!`);
+
+        minhaAgenda.push("17h-Ir ao exame");
+        console.log(`${minhaAgenda}`)
+
+        minhaAgenda.sort();
+        console.log(`Tarefas organizadas por horário: ${minhaAgenda}`);
+
+        minhaAgenda.shift();
+        console.log(`Tarefa concluída: 11h-Academia`);
+        console.log(`${minhaAgenda}`);
+
+        minhaAgenda.pop();
+        console.log(`Sua última tarefa foi cancelada!`);
+        console.log(`${minhaAgenda}`);
+
+
+    </script>
+</body>
+</html>
